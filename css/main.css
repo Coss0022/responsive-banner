@@ -1,0 +1,32 @@
+html {
+  font-family: Georgia, serif;
+  color: #fff;
+}
+
+.btn {
+  border-color: #97a49b;
+  font-weight: bold;
+  color: #fff;
+}
+
+.box {
+  background-color: #495562;
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    max-height: 500px;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .box {
+    background-color: transparent;
+    background-image: linear-gradient(rgba(73, 85, 98, 0.5));
+    position: absolute;
+  }
+
+}
