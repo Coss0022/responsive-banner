@@ -17,6 +17,7 @@ html {
 
   img {
     max-height: 500px;
+    overflow: hidden;
   }
 
   header {
@@ -25,7 +26,8 @@ html {
 
   .box {
     background-color: transparent;
-    background-image: linear-gradient(rgba(73, 85, 98, 0.5));
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent, rgba(73, 85, 98, 0.5));
     position: absolute;
   }
 
